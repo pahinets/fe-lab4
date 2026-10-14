@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Товстоп'ят Олександр, ІО-42, КПІ, ФІОТ, Лабораторна робота 4, JavaScript, DOM, Львів">
+    <meta name="description" content="Лабораторна робота №4 з курсу «Основи Frontend технологій» студента групи ІО-42 Товстоп'ята Олександра Олеговича">
+    <title>Товстоп'ят О. О., ІО-42, Лаб. роб. №4, Варіант 3 (83)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Елемент 1 -->
+    <h2>Товстоп'ят Олександр Олегович</h2>
+
+    <!-- Елемент 2 -->
+    <p>Місце народження: 15 травня 2006 року, м. Звенигородка</p>
+
+    <!-- Елемент 3 -->
+    <p>Освіта: Київський військовий ліцей імені Івана Богуна, м. Київ;<br>
+       НТУУ «КПІ ім. Ігоря Сікорського», м. Київ</p>
+
+    <!-- Елемент 4: (n mod 10) + 1 = 4 -> доступ через getElementById() -->
+    <h3 id="fourth-element" class="clickable">Хобі:</h3>
+
+    <!-- Елемент 5: наступний елемент -> доступ через querySelector() -->
+    <ul class="fifth-element clickable">
+        <li>Програмування та комп'ютерна інженерія</li>
+        <li>Локалізація відеоігор та переклад манґи</li>
+        <li>Тренування в тренажерному залі</li>
+        <li>Комп'ютерні ігри та музика у форматі FLAC</li>
+    </ul>
+
+    <!-- Елемент 6 -->
+    <h3>Улюблені фільми та серіали:</h3>
+
+    <!-- Елемент 7 -->
+    <ol>
+        <li>«Початок» (Inception), 2010</li>
+        <li>«Інтерстеллар» (Interstellar), 2014</li>
+        <li>«Джанґо вільний» (Django Unchained), 2012</li>
+    </ol>
+
+    <!-- Елемент 8 -->
+    <p>
+        <strong>Львів</strong> — місто на заході України, національно-культурний та освітньо-науковий осередок країни,
+        великий промисловий центр і транспортний вузол, вважається столицею Галичини та центром Західної України.
+        Історичний центр Львова занесено до списку Світової спадщини ЮНЕСКО.
+    </p>
+
+    <!-- Елемент 9: Контейнер із зображенням міста -->
+    <div id="image-container">
+        <a href="https://lviv.travel/ua/city-card" target="_blank" rel="noopener noreferrer" title="Туристичний портал Львова — Lviv City Card">
+            <img src="lviv.jpg" alt="Архітектура та панорама міста Львів" class="city-image" width="700">
+        </a>
+    </div>
+
+    <!-- Елемент 10: Кнопки керування зображенням (Завдання 2) -->
+    <div class="controls">
+        <button id="btn-add" type="button">Додати</button>
+        <button id="btn-increase" type="button">Збільшити</button>
+        <button id="btn-decrease" type="button">Зменшити</button>
+        <button id="btn-delete" type="button">Видалити</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
